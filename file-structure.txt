@@ -1,0 +1,196 @@
+/
+├── .next/
+├── tailwind.config.ts
+├── public/
+│   ├── static/
+│   ├── site_of_the_day.jpg
+│   ├── spotify_logo.png
+│   ├── tana_logo.png
+│   ├── that_conf_sticker.png
+│   ├── things3_logo.png
+│   ├── vercel.svg
+│   ├── vscode_logo.png
+│   ├── web_dev_challenge.jpeg
+│   ├── red_rising_cover.jpeg
+│   ├── sarah_drasner.jpg
+│   ├── shashi_lo.jpg
+│   ├── projects/
+│   ├── raycast_logo.png
+│   ├── new-code-blocks.png
+│   ├── new_homepage_animations.jpg
+│   ├── next.svg
+│   ├── notion_logo.png
+│   ├── obsidian_logo.png
+│   ├── pixelsnap2_logo.png
+│   ├── figma_logo.png
+│   ├── framer_logo.png
+│   ├── james_q_quick.jpg
+│   ├── knights_kwest.jpeg
+│   ├── linear_logo.png
+│   ├── lotr_sticker.png
+│   ├── mymind_logo.png
+│   ├── connections/
+│   ├── connections_bg_pattern.png
+│   ├── cyc_sticker.png
+│   ├── fantastical_logo.png
+│   ├── c3_speaker_head.png
+│   ├── cleanshotx_logo.png
+│   ├── colby_fayock.jpg
+│   ├── commit_your_code_ep_9.jpeg
+│   ├── connections-page-revamp.png
+│   ├── braydoncoyer_og_overlay.png
+│   ├── braydoncoyer_profile.jpeg
+│   ├── braydon_speaking_head_3.jpeg
+│   ├── braydon_speaking_photo.jpeg
+│   ├── braydon_speaking_photo_square.jpg
+│   ├── braydon_stir_trek.jpeg
+│   ├── c3_conf_sticker.png
+│   ├── braydon_headshot_1.jpeg
+│   ├── braydon_headshot_2.jpeg
+│   ├── braydon_headshot_3.jpg
+│   ├── braydon_headshot_4.jpg
+│   ├── braydon_headshot_5.jpg
+│   ├── braydon_and_devyn.jpg
+│   ├── braydon_and_pj.jpeg
+│   ├── braydon_commit_your_code.jpeg
+│   ├── braydon_coyer_blogfolio_og.jpg
+│   ├── blog/
+│   ├── blogfolio-v3-released.png
+│   ├── 1password_logo.png
+│   ├── amy_dutton.jpg
+│   ├── arc_logo.png
+│   ├── article-reactions.jpeg
+│   ├── article-read-count.jpeg
+│   ├── bcoyerlogo_dark.svg
+│   └── grainy-texture.png
+├── .evn.exmple
+├── .velite/
+│   ├── changelogItems.json
+│   ├── posts.json
+│   ├── index.d.ts
+│   └── index.js
+├── node_modules/
+├── pnpm-lock.yaml
+├── .git/
+├── tsconfig.json
+├── velite.config.ts
+├── postcss.config.js
+├── content/
+│   ├── changelog/
+│   └── blog/
+├── middleware.ts
+├── next-env.d.ts
+├── next.config.mjs
+├── package-lock.json
+├── package.json
+├── app/
+│   ├── page.tsx
+│   ├── components/
+│   │   ├── DarkModeToggle.tsx
+│   │   ├── Navbar.tsx
+│   │   ├── BgGradient.tsx
+│   │   ├── mdx-content.tsx
+│   │   ├── mdx.tsx
+│   │   ├── StatsBento.tsx
+│   │   ├── SvgPatterns.tsx
+│   │   ├── Tabs.tsx
+│   │   ├── Timeline.tsx
+│   │   ├── ToolboxBento.tsx
+│   │   ├── VideoCard.tsx
+│   │   ├── ViewCounter.tsx
+│   │   ├── Marque.tsx
+│   │   ├── NewsletterSignUp.tsx
+│   │   ├── PageSection.tsx
+│   │   ├── PageTitle.tsx
+│   │   ├── Photo.tsx
+│   │   ├── PhotoGallery.tsx
+│   │   ├── ProfilePicture.tsx
+│   │   ├── Resume.tsx
+│   │   ├── ScrapbookBento.tsx
+│   │   ├── SectionTitlePill.tsx
+│   │   ├── ShadowBox.tsx
+│   │   ├── SignInWithGitHub.tsx
+│   │   ├── SocialPill.tsx
+│   │   ├── SpeakingBento.tsx
+│   │   ├── CalendarBento.tsx
+│   │   ├── CategorySelect.tsx
+│   │   ├── ChangelogBento.tsx
+│   │   ├── CommunityWallBento.tsx
+│   │   ├── CommunityWallCard.tsx
+│   │   ├── CommunityWallModal.tsx
+│   │   ├── ConnectionsBento.tsx
+│   │   ├── ContentLink.tsx
+│   │   ├── CreateCommunityNoteBuilder.tsx
+│   │   ├── CurrentlyPlayingBento.tsx
+│   │   ├── CurrentlyReadingBento.tsx
+│   │   ├── FeaturedBlogCard.tsx
+│   │   ├── Footer.tsx
+│   │   ├── GridWrapper.tsx
+│   │   ├── HorizontalLine.tsx
+│   │   ├── Link.tsx
+│   │   ├── AboutMeBento.tsx
+│   │   ├── AboutSection.tsx
+│   │   ├── AboutTrackPattern.tsx
+│   │   ├── AnimatedMobilePhotos.tsx
+│   │   ├── AnimatedProfilePicture.tsx
+│   │   ├── AnimatedText.tsx
+│   │   ├── ArticleReactions.tsx
+│   │   ├── ArticleReactionsWrapper.tsx
+│   │   ├── BentoCard.tsx
+│   │   ├── BgSectionTag.tsx
+│   │   ├── BlogPostList.tsx
+│   │   ├── BorderCard.tsx
+│   │   └── Button.tsx
+│   ├── lib/
+│   │   ├── utils.ts
+│   │   ├── communityWall/
+│   │   │   └── types.tsx
+│   │   ├── resume/
+│   │   │   └── types.ts
+│   │   └── supabase/
+│   │       ├── client.ts
+│   │       ├── getUserSession.ts
+│   │       └── server.ts
+│   ├── links/
+│   │   └── page.tsx
+│   ├── projects/
+│   │   └── page.tsx
+│   ├── speaking/
+│   │   └── page.tsx
+│   ├── toolbox/
+│   │   └── page.tsx
+│   ├── db/
+│   │   ├── blog.ts
+│   │   ├── postgres.ts
+│   │   ├── queries.ts
+│   │   ├── spotify.ts
+│   │   └── actions.ts
+│   ├── connections/
+│   │   └── page.tsx
+│   ├── data/
+│   │   ├── siteMetadata.ts
+│   │   └── toolbox.ts
+│   ├── community-wall/
+│   │   └── page.tsx
+│   ├── about/
+│   │   └── page.tsx
+│   ├── api/
+│   │   └── og/
+│   │       └── route.tsx
+│   ├── auth/
+│   │   └── callback/
+│   │       └── route.ts
+│   ├── blog/
+│   │   ├── category/
+│   │   │   └── [category]/
+│   │   ├── page.tsx
+│   │   ├── view-counter.tsx
+│   │   └── [slug]/
+│   ├── robots.ts
+│   ├── sitemap.ts
+│   ├── favicon.ico
+│   └── globals.css
+├── bun.lockb
+├── .eslintrc.json
+├── .gitignore
+└── .prettierrc.json
